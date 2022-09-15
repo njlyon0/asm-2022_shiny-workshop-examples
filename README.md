@@ -4,7 +4,15 @@
 
 Hello! This folder contains several example apps aimed at showcasing various components of a Shiny app. The scripts contained in this folder are described below so please check out the (short) summary and then feel free to adapt or modify each of these apps as needed!
 
-## Script Explanations
+## Example App Explanations
+
+- **basic_app.R** - This demonstrates a fundamental app without reactivity that displays some text
+
+- **reactive_app.R** - This app is skeletal but does display reactivity at its most fundamental level
+
+- **overview_app.R** - This app showcases a helpful and informative "overview" tab that would normally be the landing page of a larger app
+
+- **reactive_app_v2.R** - This app shows reactivity (similarly to the "reactive_app.R" script) but does so in a more nuanced fashion with more moving parts
 
 -   **ui_elements.R** - This app shows several typical user interface (UI) widgets and how inputs in each of them are received by the server of the app. Seeing how these widgets "talk" to the server may help you to write your own server as you can better anticipate how the UI and server interact
 
